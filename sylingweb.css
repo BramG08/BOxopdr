@@ -8,15 +8,10 @@ body {
     font-size: 20px;
     font-family: sans-serif;
     background-color: white;
-
+    color: black
 }
 
-.darkmode
-{background-color: black;
-color:white;
- }
 
-header {}
 
 article {
     width: 60vw;
@@ -102,4 +97,65 @@ figcaption {
     display: flex;
     align-items: center;
     margin: 20px;
+    justify-content: space-between;
+}
+
+.gorilla {
+    padding: 20px;
+}
+
+
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-bottom: 05px solid black;
+}
+
+.header-left h1 {
+    margin: 0;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.header-right button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    border: none;
+    background-color: whitesmoke;
+    color: grey;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.header-right button:hover {
+    background-color: black;
+}
+
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+.dark-mode article {
+    background-color: #222;
+    color: white;
+}
+
+.dark-mode header {
+    background-color: black;
+    color: white;
+    border-bottom: 05px solid white;
+}
+.dark-mode .solid {
+    border: 2px solid white;
+    
 }

@@ -7,15 +7,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Website van Bram</title>
 </head>
-<header>
 
-</header>
 
 <body>
+    <header class="header">
+        <div class="header-left">
+            <h1 class="white">Bram Grippeling</h1>
+        </div>
+        <div class="header-right">
+            <button id="dark-mode-toggle">Dark/Light</button> 
+        </div>
+    </header>
     <article>
-        <h1>Bram Grippeling</h1>
         <div class="aapje">
-            <figure>
+            <figure class="gorilla">
                 <img src="./images/IMG-20240330-WA0008.jpg" alt="mijzelf">
                 <figcaption>
                     Een foto van mij met een Mascotte!
@@ -36,7 +41,7 @@
                 de
                 binnenstad en haven.
             </p>
-            <figure>
+            <figure class="gorilla">
                 <img src="./images/hoorn-baadland.jpeg" alt="Hoornse haven">
                 <figcaption>
                     Foto van de mooie Hoornse haven.
@@ -46,8 +51,8 @@
         </div>
         <hr class="solid">
         <h3>In mijn vrije tijd</h3>
-        <div>
-            <figure>
+        <div class="aapje">
+            <figure class="gorilla">
                 <img src="./images/OIP.jpg" alt="NBA2K Cover">
                 <figcaption>
                     Dit is Vince Carter die op de Premium cover op NBA2K25
@@ -60,16 +65,25 @@
                 linkerkant staat. </p>
             <hr class="solid">
         </div>
-        <h4> Wat kan ik al</h4>
-        Ik kan nog niet heel veel met code maar wil graag weten hoe ik naar mijn mening en verwachting goed kan maken.
-        En
-        duidelijk naar klanten dit kan overbrengen.
-        <figure>
-            <img src="./images/images.jpg" alt="bedrujfsleden die aan het babbelen zijn">
-            <figcaption>Dit is een zakelijk gesprek</figcaption>
-        </figure>
+
         <hr class="solid">
+        <h4> Wat kan ik al</h4>
+        <div class="aapje">
+            <figure class="gorilla">
+                <img src="./images/images.jpg" alt="bedrijfsleden die aan het babbelen zijn">
+                <figcaption>
+                    Dit is een zakelijk gesprek
+                </figcaption>
+            </figure>
+            Ik kan nog niet heel veel met code maar wil graag weten hoe ik naar mijn mening en verwachting goed kan
+            maken.
+            En
+            duidelijk naar klanten dit kan overbrengen.
+        </div>
+        <hr class="solid">
+
         <h5>Mijn Top Tien Basketballers</h5>
+
         <table>
             <ul>
                 <li>1.Lebron James</li>
@@ -86,8 +100,7 @@
             </ul>
         </table>
     </article>
-
-
+    <script src="./make.js"></script>
 
 </body>
 <footer>Gemaakt door Bram Grippeling.</footer>
